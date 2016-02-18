@@ -1,0 +1,12 @@
+<h1> new </h1>
+
+
+<%= simple_form_for(@cocktail) do |f| %>
+  <%= f.error_notification %>
+
+  <%= f.input :name %>
+  <%= f.input :ingredients %>
+  <%= f.input :doses %>
+
+  <%= f.button :submit %>
+<% end %>

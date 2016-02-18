@@ -1,6 +1,7 @@
 class CocktailsController < ActionController::Base
 
 
+
 def index
 @cocktail = Cocktail.all
 end
